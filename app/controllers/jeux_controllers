@@ -1,0 +1,6 @@
+class JeuxController < ApplicationController
+  def index
+    @jeux = Jeu.all
+  end
+
+end  
